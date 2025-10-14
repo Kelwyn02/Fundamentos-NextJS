@@ -17,14 +17,14 @@ export function Header() {
             </div>
 
             <div className="flex gap-4">
-                <Link href="/">
+                <Link href="/LoginPage">
                     <Button className="bg-teal-800 text-teal-50 hover:bg-teal-900 cursor-pointer">
                         <User2Icon />
                     </Button>
                 </Link>
 
 
-                <Link href="/">
+                <Link href="/ShopCartPage">
                     <Button className="bg-teal-800 text-teal-50 hover:bg-teal-900 cursor-pointer">
                         <ShoppingBagIcon />
                     </Button>
