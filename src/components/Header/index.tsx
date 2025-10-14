@@ -6,13 +6,15 @@ import Image from "next/image";
 export function Header() {
     return (
         <header className="bg-teal-950 flex justify-between text-teal-50 p-4 items-center">
-            <div className="flex items-center gap-4">
-                <Image
-                src="/logo.svg"
-                alt="Logo do Projeto"
-                width={60}
-                height={60}
-                />
+            <div className="flex flex-1 items-center gap-4">
+                <Link href="/">
+                    <Image
+                        src="/logo.svg"
+                        alt="Logo do Projeto"
+                        width={60}
+                        height={60}
+                    />
+                </Link>
                 <span className="font-medium text-2xl">Router Fundamentals</span>
             </div>
 
