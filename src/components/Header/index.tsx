@@ -1,4 +1,4 @@
-import { ShoppingBagIcon, User2Icon } from "lucide-react";
+import { LayoutDashboard, User2Icon } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
@@ -26,9 +26,9 @@ export function Header() {
                 </Link>
 
 
-                <Link href="/ShopCartPage">
+                <Link href="/AdminPage">
                     <Button className="bg-teal-800 text-teal-50 hover:bg-teal-900 cursor-pointer">
-                        <ShoppingBagIcon />
+                        <LayoutDashboard />
                     </Button>
                 </Link>
             </div>

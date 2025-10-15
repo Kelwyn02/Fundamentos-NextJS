@@ -1,6 +1,6 @@
 import { LoginForm } from "@/components/LoginForm";
 
-export default function SegundaPagina(){
+export default function LoginPage(){
     return(
         <LoginForm/>
     )

@@ -5,7 +5,7 @@ export function LoginForm() {
     return (
         <div className="container mx-auto px-4">
             <div className="flex justify-center">
-                <div className="w-full md:w-8/12 lg:w-6/12 mt-[75px] bg-teal-950 text-center shadow-lg rounded-lg">
+                <div className="w-full md:w-8/12 lg:w-6/12 mt-16 bg-teal-950 text-center shadow-lg rounded-lg">
                     <div className="p-8 md:p-12">
 
                         <div className="h-25 text-7xl leading-25 bg-gradient-to-r bg-clip-text text-transparent flex items-center justify-center">
